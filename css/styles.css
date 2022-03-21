@@ -47,12 +47,10 @@ h2{
 
 }
 img{
-    width: 200px;
+    width: 400px;
+    
 }
-.container{
-    float: left;
-    width: 50%;
-}
+
 
 h1{
     text-align: center;
