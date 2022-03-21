@@ -46,3 +46,14 @@ h2{
     align-items: center;
 
 }
+img{
+    width: 200px;
+}
+.container{
+    float: left;
+    width: 50%;
+}
+
+h1{
+    text-align: center;
+}
