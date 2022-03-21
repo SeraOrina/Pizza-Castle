@@ -55,3 +55,7 @@ img{
 h1{
     text-align: center;
 }
+#btn{
+    color: red;
+    background-color: black;
+}
