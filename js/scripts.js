@@ -1,6 +1,8 @@
-let  product= document.getElementsByClassName("product")
-let addcart=document.getElementById("btn")
+let  addCart= document.querySelector("addCart")
+let addbtn=document.querySelector("addBtn")
  
-addcart.addEventListener("click",(e) => {
+addBtn.addEventListener("click",(e) => {
     e.preventDefault()
-})
+    
+    function updateCart()
+});
