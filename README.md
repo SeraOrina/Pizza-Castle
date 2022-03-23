@@ -10,12 +10,12 @@
 
  
 ## Set up instructions
-HTTPS:
+HTTPS:https://github.com/SeraOrina/Pizza-Castle.git
 
 
 
 ## Live Site
-{
+https://seraorina.github.io/Pizza-Castle/
 ### License
 {<a href="https://choosealicense.com/licenses/mit/" > MIT LICENCE </a>}
   
