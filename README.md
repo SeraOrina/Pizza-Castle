@@ -17,5 +17,5 @@ HTTPS:
 ## Live Site
 {
 ### License
-{<link href="https://choosealicense.com/licenses/mit/" alt= MIT LICENCE >}
+{<a href="https://choosealicense.com/licenses/mit/" > MIT LICENCE </a>}
   
