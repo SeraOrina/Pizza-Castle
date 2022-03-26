@@ -37,7 +37,7 @@ h2{
     color: azure;
 }
 .home{
-    background-image: url("../images/pizza-5143513_960_720.jpg");
+    background-image: url("./images/pizza-5143513_960_720.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
