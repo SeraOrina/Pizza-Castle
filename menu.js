@@ -1,5 +1,5 @@
 $(document).ready(function () {
     $("#btn").click(function () {
-        alert("order received");
+        alert("Delivery on the way");
     });
 })
