@@ -63,13 +63,13 @@ h1{
     font-size: medium;
     
 }
-.body{
-    background-image: url("../images/table-3219660_960_720.webp");
-    background-size: cover;
+.form{
+    background-color:rgb(150, 52, 22); ;
     width: 100vh;
+    
     
     
 }
 #menu{
-    background-color:rgb(150, 52, 22);;
+    background-color:rgb(150, 52, 22);
 }

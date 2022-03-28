@@ -10,125 +10,52 @@
 </head>
 <body>
     <h1>Order</h1>
-    <div container-fluid>
+    <section class="order">
+    <div  container-fluid>
         <div class="table-responsive">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Pizza</th>
-                        <th>Size</th>
-                        <th> Price</th>
-
-                    </tr>
-                <tr>
-                    <th>BBQ Pizza</th>
-                    <th><select>
-                        <option>small</option>
-                        <option> Medium</option>
-                        <option> Large</option>
-                    </select></th>
-                    <th>1000/=</th>
-                    <th><button id="btn">Add to Cart</button></th>
-                </tr>
-                <tr>
-                    <th>BBQ Chicken Pizza</th>
-                    <th><select>
-                        <option>small</option>
-                        <option> Medium</option>
-                        <option> Large</option>
-                    </select></th>
-                    <th>1000/=</th>
-                    <th> <button id="btn">Add to Cart</button></th>
-                </tr>
-                <tr>
-                    <th>Peperoni Pizza</th>
-                    <th><select>
-                        <option>small</option>
-                        <option> Medium</option>
-                        <option> Large</option>
-                    </select></th>
-                    <th>1000/=</th>
-                    <th> <button id="btn">Add to Cart</button></th>
-                </tr>
-                   <tr>
-                    <th>Cheese Pizza</th>  
-                    <th><select>
-                        <option>small</option>
-                        <option> Medium</option>
-                        <option> Large</option>
-                    </select></th>
-                    <th>1000/=</th>
-                    <th><button id="btn">Add to Cart</button></th>
-                   </tr>
-                   <tr>
-                    <th>Veg Pizza</th>
-                   <th><select>
-                    <option>small</option>
-                    <option> Medium</option>
-                    <option> Large</option>
-                </select></th>
-                <th>1000/=</th>
-                <th><button id="btn">Add to Cart</button></th>
-                </tr>
-                </thead>
-            </table>
-        </div>
-        </div>
-       <div>
-        <div container-fluid>
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Crust</th>
-                            <th> Price</th>
-                        </tr>
-                        <tr>
-                            <th>Thin crust </th>
-                            <th> 150/=</th>
-                            <th><button id="btn">Add to Cart</button></th>
-
-                        </tr>
-                        <tr>
-                            <th>stuffed crust</th>
-                            <th> 150/=</th>
-                            <th><button id="btn">Add to Cart</button></th>
-                        </tr>
-                        </thead>
-                        </table>
-                        </div>
-                        <div>
-                            <div container-fluid>
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Topping </th>
-                                                <th> Price</th>
-                                            </tr>
-                                            <tr>
-                                                <th>Extra cheese  </th>
-                                                <th> 150/=</th>
-                                                <th><button id="btn">Add to Cart</button></th>
+            <div id="sizetable">
+                <h3 class="tablehead">Select pizza size:</h3>
+                    <input type="radio" name="size" value="small"> Small<br>
+                    <input type="radio" name="size" value="Medium"> Medium<br>
+                    <input type="radio" name="size" value="Large"> Large<br>
+            </div>
+            <br>
+            <div id="vegtable">
+                <h3 class="tablehead">Select your choice of pizza:</h3>
+                <div class="menu ">
+                    <input type="checkbox" name="pizaa" value="pizaa"> BBQ Pizza<br>
+                    <input type="checkbox" name="pizza" value="pizaa"> BBQ Chicken Pizza<br>
+                    <input type="checkbox" name="pizaa" value="pizaa"> Peperoni Pizza<br>
+                    <input type="checkbox" name="pizaa" value="pizaa"> Cheese Pizza<br>
+                    <input type="checkbox" name="pizaa" value="pizaa"> Veg Pizza<br>
+                </div>
+            </div>
+            <br>
+            <div id="crust">
+                <h3 class="tablehead">Select your choice of crust:</h3>
+                <div class="menu ">	
+                    <input type="radio" name="crust" value="Plain"> Thin Crust<br>
+                    <input type="radio" name="crust" value="Garlic Butter"> Stuffed Crust<br>
                     
-                                            </tr>
-                                            <tr>
-                                                <th>Bacon</th>
-                                                <th> 150/=</th>
-                                                <th><button id="btn">Add to Cart</button></th>
-                                            </tr>
-                                            <br>
-                                            <div>
-                                                <div container-fluid>
-                                                    <div class="table-responsive">
-                                                        <table class="table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Cart</th>
-                                                                    <th> Total</th>
-                                                                </tr>
-                                                                            
+            </div>
+            </div>
+            <br>
+            <div id="toppings ">
+                <h3 class="tablehead">Select your choice of toppings:</h3>
+                <div class="menu ">
+                    <input type="checkbox" name="meat" value="Exta cheese"> Pepperoni<br>
+                    <input type="checkbox" name="meat" value="Bacon"> Sausage<br>
+                    
+                </div>
+            </div>
+            <br>
+            
+            <br>
+            <button id="btn" type="submit" onclick="invoice()">Submit order</button>
+            <br><br>
+                                                                  
                                             <script src="/js/scripts.js"></script>
+                                        </section>
                                         
                                                          
 </body>

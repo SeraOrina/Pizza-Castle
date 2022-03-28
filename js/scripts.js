@@ -1,8 +1,6 @@
-let  addCart= document.querySelector("addCart")
-let addbtn=document.querySelector("addBtn")
- 
-addBtn.addEventListener("click",(e) => {
-    e.preventDefault()
-    
-    function updateCart()
-});
+$(document).ready(function () {
+    $("#btn").click(function () {
+        alert("Thank you !! We have received your message");
+    });
+})
+
