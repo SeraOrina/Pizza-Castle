@@ -16,8 +16,13 @@
             <div id="sizetable">
                 <h3 class="tablehead">Select pizza size:</h3>
                     <input type="radio" name="size" value="small"> Small<br>
+                    <th> 800/=</th>
+                    <br>
                     <input type="radio" name="size" value="Medium"> Medium<br>
+                    <th> 1000/=</th>
+                    <br>
                     <input type="radio" name="size" value="Large"> Large<br>
+                    <th> 1200/=</th>
             </div>
             <br>
             <div id="vegtable">
@@ -34,8 +39,12 @@
             <div id="crust">
                 <h3 class="tablehead">Select your choice of crust:</h3>
                 <div class="menu ">	
-                    <input type="radio" name="crust" value="Plain"> Thin Crust<br>
-                    <input type="radio" name="crust" value="Garlic Butter"> Stuffed Crust<br>
+                    <input type="radio" name="crust" value="Crust"> Thin Crust<br>
+                    <th> 150/=</th>
+                    <br>
+                    <input type="radio" name="crust" value="crust"> Stuffed Crust<br>
+                    <th> 150/=</th>
+                    <br>
                     
             </div>
             </div>
@@ -43,19 +52,24 @@
             <div id="toppings ">
                 <h3 class="tablehead">Select your choice of toppings:</h3>
                 <div class="menu ">
-                    <input type="checkbox" name="meat" value="Exta cheese"> Pepperoni<br>
-                    <input type="checkbox" name="meat" value="Bacon"> Sausage<br>
+                    <input type="checkbox" name="meat" value="Exta cheese"> Exta cheese<br>
+                    <th> 150/=</th>
+                     <br>
+                    <input type="checkbox" name="meat" value="Bacon"> Bacon<br>
+                    <th> 150/=</th>
+                    <br>
                     
                 </div>
             </div>
             <br>
             
             <br>
-            <button id="btn" type="submit" onclick="invoice()">Submit order</button>
+            <button id="btn" type="submit" >Submit order</button>
             <br><br>
-                                                                  
-                                            <script src="/js/scripts.js"></script>
-                                        </section>
+            <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+            <script src="./menu.js"></script>                 
+             </section>
                                         
                                                          
 </body>
